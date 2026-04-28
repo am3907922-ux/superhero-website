@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+
+<section class="hero-section">
+  <div class="hero-box">
+    <h2>Welcome to the Superhero Website</h2>
+    <p>Here you can browse Marvel and DC heroes, view information about them and create youre own hero.</p>
+    <a href="/hetjur/ny" class="btn-primary">Add a hero</a>
+  </div>
+</section>
+
+<section class="featured-section"> 
+  <h3>Heroes in the collection</h3>
+
+  <div class="card-grid">
+    <% heroes.forEach(hero => { %>
+      <div class="hero-card">
+        
+        <img src="<%= hero.image_url %>" alt="<%= hero.name %>" class="card-img">
+        
+        <div class="card-info">
+          <h4><%= hero.name %></h4>
+          <p><strong>Universe:</strong> <%= hero.universe %></p>
+          <p><strong>Power:</strong> <%= hero.power %></p>
+          <a href="/hetjur/<%= hero.id %>" class="card-link">View details</a>
+        </div>
+
+      </div>
+    <% }) %>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

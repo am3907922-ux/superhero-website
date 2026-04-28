@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+<section class="featured-section">
+  <div class="details-box">
+    <h2><%= hero.name %></h2>
+    <p><strong>Universe:</strong> <%= hero.universe %></p>
+    <p><strong>Power:</strong> <%= hero.power %></p>
+
+    <img src="<%= hero.image_url %>" alt="<%= hero.name %>" class="details-image">
+    <p class="details-description">
+      <strong>Description:</strong> <%= hero.description %>
+    </p>
+
+    <a href="/" class="btn-primary">Back to home</a>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

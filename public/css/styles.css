@@ -1,0 +1,236 @@
+/* Velur ALLA þætti á síðunni */
+* {
+  box-sizing: border-box; /* padding og border teljast inn í width/height */
+  margin: 0; /* fjarlægir sjálfgefið margin */
+  padding: 0; /* fjarlægir sjálfgefið padding */
+}
+
+body {
+  font-family: Arial, sans-serif; /* letur */
+  background-color: #0f172a; /* bakgrunnslitur */
+  color: #f8fafc; /* textalitur */
+  line-height: 1.6; /* línubil */
+}
+
+/* fyrir myndirnar*/
+.card-img {
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.container {
+  width: 90%; /* tekur 90% af skjábreidd */
+  max-width: 1100px; /* en aldrei meira en þetta */
+  margin: 0 auto; /* miðjar container */
+}
+
+.main-header {
+  background-color: #111827; /* bakgrunnur header */
+  border-bottom: 2px solid #dc2626; /* rauð lína neðst */
+  padding: 1rem 0; /* pláss ofan og neðan */
+}
+
+.nav-wrapper {
+  display: flex; /* setur items í línu */
+  justify-content: space-between; /* dreifir þeim */
+  align-items: center; /* miðjar lóðrétt */
+}
+
+.logo {
+  font-size: 1.7rem; /* stærð á logo */
+  color: white; /* litur */
+}
+
+.main-nav ul {
+  list-style: none; /* fjarlægir punktalista */
+  display: flex; /* setur li í röð */
+  gap: 1rem; /* bil á milli */
+}
+
+.main-nav a {
+  text-decoration: none; /* fjarlægir undirstrikun */
+  color: white; /* litur */
+  font-weight: bold; /* feitletrað */
+}
+
+.main-nav a:hover {
+  color: #facc15; /* litur þegar mús fer yfir */
+}
+
+.hero-section {
+  margin: 2rem 0; /* pláss ofan og neðan */
+}
+
+.hero-box {
+  background: linear-gradient(135deg, #2691d0, #fd0b0b); /* gradient bakgrunnur */
+  padding: 3rem 2rem; /* innra pláss */
+  border-radius: 16px; /* ávöl horn */
+  text-align: center; /* miðjar texta */
+}
+
+.hero-box h2 {
+  font-size: 2rem; /* stærð */
+  margin-bottom: 1rem; /* bil niður */
+}
+
+.hero-box p {
+  max-width: 700px; /* takmarkar breidd */
+  margin: 0 auto 1.5rem auto; /* miðjar + bil niður */
+}
+
+.btn-primary {
+  display: inline-block; /* hegðar sér eins og hnappur */
+  background-color: #dc2626; /* bakgrunnur */
+  color: white; /* texti */
+  text-decoration: none; /* fjarlægir underline */
+  padding: 0.9rem 1.4rem; /* stærð */
+  border-radius: 999px; /* mjög ávalur */
+  font-weight: bold; /* feitletrað */
+}
+
+.btn-primary:hover {
+  background-color: #b91c1c; /* dekkri við hover */
+}
+
+.featured-section {
+  margin: 2rem 0 4rem 0; /* meira pláss neðst */
+}
+
+.featured-section h3 {
+  margin-bottom: 1rem; /* bil */
+  font-size: 1.6rem; /* stærð */
+}
+
+.card-grid {
+  display: grid; /* grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* responsive dálkar */
+  gap: 1.5rem; /* bil milli korta */
+}
+
+.hero-card {
+  background-color: white; /* hvítur bakgrunnur */
+  color: #111827; /* dökkur texti */
+  border-radius: 16px; /* ávöl horn */
+  overflow: hidden; /* klippir innihald sem fer út */
+}
+
+.card-img {
+  height: 200px; /* fasta hæð */
+}
+
+.placeholder-img {
+  background: linear-gradient(135deg, #2563eb, #f09696); /* placeholder gradient */
+}
+
+.card-info {
+  padding: 1rem; /* innra pláss */
+}
+
+.card-info h4 {
+  margin-bottom: 0.5rem; /* bil */
+}
+
+.card-info p {
+  margin-bottom: 0.5rem; /* bil */
+}
+
+.card-link {
+  display: inline-block; /* link eins og hnappur */
+  margin-top: 0.5rem; /* bil */
+  color: #dc2626; /* rauður */
+  text-decoration: none; /* engin underline */
+  font-weight: bold; /* feitletrað */
+}
+
+.main-footer {
+  border-top: 1px solid #334155; /* lína efst */
+  padding: 1.5rem 0; /* pláss */
+  text-align: center; /* miðja texta */
+  color: #cbd5e1; /* ljós texti */
+}
+
+.details-box {
+  background-color: white; /* hvítur bakgrunnur */
+  color: #111827; /* dökkur texti */
+  max-width: 800px; /* hámarksbreidd */
+  margin: 0 auto; /* miðja */
+  padding: 2rem; /* innra pláss */
+  border-radius: 16px; /* ávöl horn */
+}
+
+.details-box h2 {
+  margin-bottom: 1rem; /* bil */
+}
+
+.details-box p {
+  margin-bottom: 1rem; /* bil */
+}
+
+.details-image {
+  height: 300px; /* hæð */
+  border-radius: 12px; /* ávöl horn */
+  margin: 1.5rem 0; /* bil */
+}
+
+.details-description {
+  margin-bottom: 1.5rem; /* bil */
+}
+
+.form-box {
+  background-color: white; /* hvítur bakgrunnur */
+  color: #111827; /* dökkur texti */
+  max-width: 700px; /* breidd */
+  margin: 0 auto; /* miðja */
+  padding: 2rem; /* innra pláss */
+  border-radius: 16px; /* ávöl horn */
+}
+
+.form-box h2 {
+  margin-bottom: 1.5rem; /* bil */
+}
+
+.hero-form {
+  display: flex; /* flex layout */
+  flex-direction: column; /* lóðrétt */
+  gap: 1rem; /* bil milli input */
+}
+
+.form-group {
+  display: flex; /* flex */
+  flex-direction: column; /* label yfir input */
+}
+
+.form-group label {
+  margin-bottom: 0.4rem; /* bil */
+  font-weight: bold; /* feitletrað */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.8rem; /* innra pláss */
+  border: 1px solid #cbd5e1; /* rammi */
+  border-radius: 8px; /* ávöl horn */
+  font-size: 1rem; /* stærð */
+}
+
+.details-image-wrapper {
+  margin: 1.5rem 0; /* bil */
+  border-radius: 12px; /* ávöl horn */
+  overflow: hidden; /* klippir mynd */
+  background-color: #111827; /* fallback bakgrunnur */
+}
+
+.details-real-image {
+  display: block; /* fjarlægir bil undir mynd */
+  width: 100%; /* fyllir breidd */
+  max-height: 450px; /* takmarkar hæð */
+  object-fit: cover; /* crop til að fylla box */
+}
