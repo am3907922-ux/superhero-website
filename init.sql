@@ -230,9 +230,30 @@ VALUES
 (
   'Silver Surfer',
   'Marvel',
-  '',
+  'Silver Surfer has the Power Cosmic, letting him control energy, fly faster than light, and alter matter.',
   '/images/silversurfer.png',
   'Silver Surfer is a cosmic, surfboard-riding herald of Galactus with immense power.'
+),
+(
+  'Thanos',
+  'Marvel',
+  'Thanos has super strength, durability, and advanced intelligence, often enhanced by cosmic energy and the Infinity Gauntlet.',
+  '/images/thanos.png',
+  'Thanos is a powerful warlord obsessed with balance, known for his strength, intellect, and quest for ultimate control over the universe.'
+),
+(
+  'Venom',
+  'Marvel',
+  'Venom has super strength, shape-shifting, web-like abilities, and rapid healing from an alien symbiote.',
+  '/images/venom.png',
+  'Venom is a dark antihero, a human bonded with an alien symbiote that gives him immense power and a monstrous appearance.'
+),
+(
+  'Spiderman Symbiote',
+  'Marvel',
+  'The Spider-Man Symbiote Suit boosts Spider-Man with greater strength, faster healing, shape-shifting, and organic webbing.',
+  '/images/spidersymbiote.png',
+  'The Spider-Man Symbiote Suit is a living alien suit that bonds with Spider-Man, boosting his powers while gradually influencing his behavior.'
 ),
 (
   'Black Widow',
