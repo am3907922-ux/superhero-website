@@ -256,6 +256,69 @@ VALUES
   'The Spider-Man Symbiote Suit is a living alien suit that bonds with Spider-Man, boosting his powers while gradually influencing his behavior.'
 ),
 (
+  'Robin',
+  'DC',
+  'Acrobatics, martial arts, detective skills, bo staff combat and leadership',
+  '/images/robin.png',
+  'Robin is Batman''s sidekick and the leader of the Teen Titans. Dick Grayson trained under Batman to become one of the finest martial artists and detectives in the DC universe.'
+),
+(
+  'Cyborg',
+  'DC',
+  'Sonic cannon, superhuman strength, technology hacking, Boom Tube portals and self-repair',
+  '/images/cyborg.png',
+  'Cyborg is a half-human, half-machine hero whose cybernetic enhancements make him one of the most powerful members of the Teen Titans and Justice League.'
+),
+(
+  'Starfire',
+  'DC',
+  'Flight, ultraviolet energy blasts, superhuman strength and near invulnerability',
+  '/images/starfire.png',
+  'Starfire is a Tamaranean princess who channels ultraviolet energy into powerful blasts and is one of the most powerful members of the Teen Titans.'
+),
+(
+  'Raven',
+  'DC',
+  'Dark magic, telekinesis, empathy, astral projection and dimensional travel',
+  '/images/raven.png',
+  'Raven is the half-demon daughter of the inter-dimensional demon Trigon, wielding dark mystical powers she constantly struggles to keep under control.'
+),
+(
+  'Beast Boy',
+  'DC',
+  'Shape-shifting into any animal, including extinct and alien creatures',
+  '/images/beastboy.png',
+  'Beast Boy can transform into any animal on Earth and beyond, making him one of the most versatile members of the Teen Titans despite his goofy personality.'
+),
+(
+  'Terra',
+  'DC',
+  'Geokinesis — full control over earth, rock and soil',
+  '/images/terra.png',
+  'Terra is a young girl with the ability to control all forms of earth and rock, whose complicated history with the Titans makes her one of DC''s most tragic characters.'
+),
+(
+  'Aqualad',
+  'DC',
+  'Underwater breathing, hydrokinesis, superhuman strength in water and communicating with sea life',
+  '/images/aqualad.png',
+  'Aqualad is the young protégé of Aquaman who commands the power of the seas and serves as one of the founding members of the Teen Titans.'
+),
+(
+  'Kid Flash',
+  'DC',
+  'Super speed, phasing through objects, speed force aura and time travel',
+  '/images/kidflash.png',
+  'Kid Flash is the teenage sidekick of the Flash who carries on the legacy of the speed force with youthful energy and lightning-fast reflexes.'
+),
+(
+  'Speedy',
+  'DC',
+  'Master archery, trick arrows, martial arts and acrobatics',
+  '/images/speedy.png',
+  'Speedy is the sidekick of Green Arrow and one of the most skilled archers in the DC universe, bringing precision and resourcefulness to the Teen Titans.'
+),
+(
   'Black Widow',
   'Marvel',
   'Expert spy, combat skills and gadgets',
