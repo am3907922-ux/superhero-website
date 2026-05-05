@@ -324,4 +324,74 @@ VALUES
   'Expert spy, combat skills and gadgets',
   '/images/black_widow.png',
   'Black Widow is a highly trained spy and assassin who is a key member of the Avengers.'
+),
+(
+  'Green Arrow',
+  'DC',
+  'Master archery, trick arrows and martial arts',
+  '/images/greenarrow.png',
+  'Green Arrow is a billionaire vigilante who uses a bow and trick arrows to fight crime in Star City.'
+),
+(
+  'Nightwing',
+  'DC',
+  'Acrobatics, martial arts and dual escrima sticks',
+  '/images/nightwing.png',
+  'Nightwing is the original Robin who grew beyond Batman''s shadow to become one of DC''s greatest heroes.'
+),
+(
+  'Storm',
+  'Marvel',
+  'Control over weather, flight and lightning',
+  '/images/storm.png',
+  'Storm is a powerful mutant who can control all aspects of weather and is one of the most respected X-Men.'
+),
+(
+  'Cyclops',
+  'Marvel',
+  'Optic blasts and tactical leadership',
+  '/images/cyclops.png',
+  'Cyclops is the field leader of the X-Men whose eyes emit powerful optic blasts he cannot control without his visor.'
+),
+(
+  'Black Adam',
+  'DC',
+  'Super strength, flight, speed and magical lightning',
+  '/images/blackadam.png',
+  'Black Adam is an ancient Egyptian warrior granted the power of the gods, who walks the line between hero and villain.'
+),
+(
+  'Shazam',
+  'DC',
+  'Super strength, flight, speed and magical lightning',
+  '/images/shazam.png',
+  'Shazam is a young boy who transforms into the world''s mightiest mortal by saying one magic word.'
+),
+(
+  'Iceman',
+  'Marvel',
+  'Cryokinesis, ice constructs and freezing anything',
+  '/images/iceman.png',
+  'Iceman is one of the original X-Men who can lower his body temperature to absolute zero and control all forms of ice.'
+),
+(
+  'War Machine',
+  'Marvel',
+  'Heavy armor, weapons arsenal and flight',
+  '/images/warmachine.png',
+  'War Machine is James Rhodes, Tony Stark''s best friend, who pilots a heavily armed version of the Iron Man armor.'
+),
+(
+  'She-Hulk',
+  'Marvel',
+  'Super strength, durability and regeneration',
+  '/images/shehulk.png',
+  'She-Hulk is Jennifer Walters, a lawyer who received a blood transfusion from Bruce Banner and gained her own Hulk powers.'
+),
+(
+  'Zatanna',
+  'DC',
+  'Reality-altering magic spoken backwards',
+  '/images/zatanna.png',
+  'Zatanna is one of the most powerful magic users in the DC universe who casts spells by speaking backwards.'
 );
